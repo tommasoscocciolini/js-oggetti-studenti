@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ranchers', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  height: 30vh;
+  align-items: flex-start;
+}
+
+.container-top{
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.container-bot{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  align-items: center;
+}
+
+#studenti li{
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.title{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#add{
+  padding: 5px 20px;
+}
+
+.formEl{
+  padding: 10px;
+}
